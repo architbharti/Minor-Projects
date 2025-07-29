@@ -1,59 +1,60 @@
-body{
-    background: linear-gradient(to right,deeppink,purple);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+body {
+  background: linear-gradient(to right, deeppink, purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-.main{
-    position: relative;
-    border: 2px solid black;
-    padding: 50px;
-    width: 500px;
-    height: 50vh;
-    background-color: black;
-    border-radius: 10px;
-    display: block;}
-
-.text{
-    border: 2px solid cyan;
-    background-color: aliceblue;
-    text-align: right;
-    padding: 5px;
-    border-radius: 10px;
-    width: 400px;
-    height: 25px;
-    font-size: 20px;
-    margin-left: 50px;
+.main {
+  position: relative;
+  border: 2px solid black;
+  padding: 50px;
+  width: 500px;
+  height: 50vh;
+  background-color: black;
+  border-radius: 10px;
+  display: block;
 }
 
-.keys{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-    margin: 60px;
+.text {
+  border: 2px solid cyan;
+  background-color: aliceblue;
+  text-align: right;
+  padding: 5px;
+  border-radius: 10px;
+  width: 400px;
+  height: 25px;
+  font-size: 20px;
+  margin-left: 50px;
 }
 
-.key{
-    height: 30px;
-    width: 70px;
-    font-size: 25px;
-    margin: 10px;
-    cursor: pointer;
+.keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin: 60px;
 }
 
-.ac{
-    /* position: absolute; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: azure;
-    margin: 10px;
-    color: azure;
-    width: 15px;
-    text-align: center;
-    top: 350px;
-    left: 110px;
-    border-radius: 7px;
+.key {
+  height: 30px;
+  width: 70px;
+  font-size: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.ac {
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+  margin: 10px;
+  color: azure;
+  width: 15px;
+  text-align: center;
+  top: 350px;
+  left: 110px;
+  border-radius: 7px;
 }

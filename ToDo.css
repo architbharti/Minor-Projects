@@ -28,8 +28,8 @@ h3{
 .addBtn{
     height: 28px;
     width: 78px;
-    /* background-color: darkblue;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 #inp{

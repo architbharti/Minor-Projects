@@ -21,7 +21,6 @@ document.querySelector(".inpBox").appendChild(lbl);
 let btn1 = document.createElement("button");
 btn1.textContent = "Add Task";
 btn1.classList.add("addBtn"); 
-btn1.style.backgroundColor = "darkblue";
 document.querySelector(".inpBox").appendChild(btn1);
 
 let div2 = document.createElement("div");
