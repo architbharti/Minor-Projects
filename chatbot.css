@@ -1,34 +1,65 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Glassdoor Sans", sans-serif;
-}
-.nav{
-    background-color: black;
-    text-align: center;
-    padding: 10px;
-}
-
-.chat{
-    display: flex;
-    padding: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
-.querybot{
-    border: 1px solid;
-}
-
-.chatarea{
-    height: 300px;
-}
-
-.msg{
-    width: 300px;
-}
-
-.icon{
-    margin-right: 10px;
-    margin-left: 5px;
-}
+.container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #chat {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            height: 80%;
+            box-shadow: 0px 0px 2em gray;
+            border-radius: 1em;
+            background-color: rgb(229, 251, 250);
+        }
+        nav {
+            display: flex;
+            height: 8%;
+            align-items: center;
+            padding: 0.8em 1.2em;
+            justify-content: space-between;
+            box-sizing: border-box;
+            
+        }
+        #chat-area {
+            height: 84%;
+            box-sizing: border-box;
+            background: 
+            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url(./bgimg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #message-area {
+            height: 8%;
+            display: flex;
+            box-sizing: border-box;
+            background-color: rgb(251, 241, 241);
+        }
+        #pro-img {
+            font-size: 1.2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1.6em;
+            height: 1.6em;
+            background-color: rgb(253, 148, 166);
+            color: white;
+            border-radius: 50%;
+        }
+        #profile {
+            display: flex;
+            gap: 1em;
+            height: 100%;
+            align-items: center;
+        }
+        #theme {
+            width: 1.9em;
+            height: 1.9em;
+            background-color: lightgrey;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
