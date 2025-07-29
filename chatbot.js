@@ -19,7 +19,7 @@ send.addEventListener('click', function() {
       messageField.value = "";
       document.querySelector("#chat-area").appendChild(message);
       let compareValue = message.textContent.toLowerCase();
-      if (compareValue == "hello") {
+      if (compareValue == "hey query") {
         let reply = document.createElement("div");
         reply.style.padding = "0.6em";
         reply.style.backgroundColor = "rgba(156, 155, 155, 0.86)";
@@ -34,9 +34,9 @@ send.addEventListener('click', function() {
         reply.style.display = "flex";
         reply.style.flexWrap = "wrap";
         reply.style.justifySelf = "flex-start";
-        reply.textContent = "Hi";
+        reply.textContent = "Hi, how may I help?";
         document.querySelector("#chat-area").appendChild(reply);
-      } else if (compareValue == "how are you?") {
+      } else if (compareValue == "tell petrol price") {
         let reply = document.createElement("div");
         reply.style.padding = "0.6em";
         reply.style.backgroundColor = "rgba(156, 155, 155, 0.86)";
@@ -51,7 +51,7 @@ send.addEventListener('click', function() {
         reply.style.display = "flex";
         reply.style.flexWrap = "wrap";
         reply.style.justifySelf = "flex-start";
-        reply.textContent = "I am fine, what about you?";
+        reply.textContent = "rs. 94.77/L";
         document.querySelector("#chat-area").appendChild(reply);
       }
 });

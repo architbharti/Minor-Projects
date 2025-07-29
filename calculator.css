@@ -1,18 +1,16 @@
-*{
+body{
+    background: linear-gradient(to right,deeppink,purple);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-body{
-    background: linear-gradient(to right,deeppink,purple);
+    height: 100vh;
 }
 
 .main{
     position: relative;
     border: 2px solid black;
-    padding: 20px;
-    width: 25vw;
+    padding: 50px;
+    width: 500px;
     height: 50vh;
     background-color: black;
     border-radius: 10px;
@@ -24,31 +22,25 @@ body{
     text-align: right;
     padding: 5px;
     border-radius: 10px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    margin-left: 50px;
 }
 
-.row1{
-    display: flex;
-    background-color: azure;
-    margin: 10px;
-    color: azure
+.keys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: 60px;
 }
-.row2{
-    display: flex;
-    background-color: azure;
+
+.key{
+    height: 30px;
+    width: 70px;
+    font-size: 25px;
     margin: 10px;
-    color: azure;
-}
-.row3{
-    display: flex;
-    background-color: azure;
-    margin: 10px;
-    color: azure;
-}
-.row4{
-    display: flex;
-    background-color: azure;
-    margin: 10px;
-    color: azure;
+    cursor: pointer;
 }
 
 .ac{
@@ -56,7 +48,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-   background-color: azure;
+    background-color: azure;
     margin: 10px;
     color: azure;
     width: 15px;
