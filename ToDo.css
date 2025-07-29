@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right , rgb(218, 69, 94) , pink);
+    text-align: center;
+}
+
+.myInp{
+    width: 500px;
+    height: 700px;
+    margin: 100px 100px 100px 500px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.inpBox{
+    width: 300px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.addBtn{
+    height: 28px;
+    width: 78px;
+    /* background-color: darkblue;
+    color: white; */
+}
+
+#inp{
+    width: 180px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.task{
+    width: 180px;
+    height: 30px;
+}
+
+.items{
+    width: 185px;
+    height: 100px;
+}
+
+.updtBtn{
+    width: 183px;
+    height: 20px;
+    background-color: whitesmoke;
+}
+
+.item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 185px;
+      height: 100px;
+      margin-left: 113px;
+      margin-bottom: 5px;
+}
+
+
+

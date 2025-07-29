@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.nav{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.name{
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding-top: 8px;
+    margin: auto auto auto 20px;
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 400px;
+
+}
+
+.item{
+    margin: auto 10px auto 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.social{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 1000px;
+}
+
+.handle{
+    margin: auto 20px auto 20px;
+    font-size: 23px;
+    text-shadow: 8px 8px 8px steelblue;
+}
+
+.portfolio{
+    background-color: rgb(20, 27, 33);
+    width: 100vw;
+    height: 100vh;
+}
+
+.about{
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    border: 3px solid steelblue;
+    top: 15%;
+    left: 25%;
+    border-radius: 20px;
+    display: flex;
+}
+
+.name1{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.name2{
+    color: white;
+    font-size: 15px;
+    word-spacing: 2px;
+    margin: auto auto 3px auto;
+}
+
+.name3{
+   background: linear-gradient(to right, steelblue, skyblue);
+  -webkit-background-clip: text;  /* Clips background to text */
+  -webkit-text-fill-color: transparent;
+font-size: 30px;
+font-weight: bolder;
+letter-spacing: 1px;
+margin: 8px auto auto auto;
+}
+
+.image{
+    position: absolute;
+    width: 150px;
+    border-radius: 90%;
+    top: 20px;
+    left: 620px;
+}
+
+.info{
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    border: 3px solid steelblue;
+    top: 45%;
+    left: 25%;
+    border-radius: 20px;
+    display: flex;
+}
+
+.head{
+    background: linear-gradient(to right, steelblue, skyblue);
+  -webkit-background-clip: text;  /* Clips background to text */
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  margin: 5px auto auto 20px;
+}
+
+.head1{
+    
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px auto 5px 50px;
+}
+
+.content{
+    color: white;
+    margin: 15px auto auto 50px;
+    width: 500px;
+    font-size: small;
+}
+
+.logo{
+    position: absolute;
+    color: white;
+    text-shadow: 5px 5px 5px steelblue;
+    font-size: 110px;
+    top: 17px;
+    left: 620px;
+}
+
+.services{
+    position: absolute;
+    width: 90vw;
+    height: 240px;
+    margin: auto auto auto 70px ;
+    /* border: 3px solid steelblue; */
+    top: 75%;
+}
+
+.head2{
+    color: whitesmoke;
+    font-size: larger;
+    margin: 5px auto 5px 600px;
+    font-size: 30px;
+}
+
+.columns{
+    display: flex;
+    color: rgb(38, 36, 36);
+    align-items: center;
+    justify-content: center;
+    transition: 10s;
+}
+
+.column{
+    width: 200px;
+    height: 170px;
+    background-color: rgb(207, 224, 255);
+    margin: 10px 20px auto auto;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+.logo1{
+    font-size: 35px;
+    margin: 20px auto auto 80px ;
+}
+
+.desc{
+    text-align: center;
+    margin: 15px;
+}
+
+.column:hover{
+    transform: scale(1.4);
+}
+
